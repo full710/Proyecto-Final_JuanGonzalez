@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "Harry Potter y el Prisionero de Azkaban",
+        "formato": "2D",
+        "costo_entrada": 3250,
+        "afiche": "../images/HP3.jpg",
+        "butacasOcupadas": []
+    },
+    {
+        "nombre": "Furiosa",
+        "formato": "2D",
+        "costo_entrada": 3250,
+        "afiche": "../images/furiosa.jpg",
+        "butacasOcupadas": []
+    },
+    {
+        "nombre": "Tarot de la muerte",
+        "formato": "2D",
+        "costo_entrada": 3250,
+        "afiche": "../images/tarot.jpeg",
+        "butacasOcupadas": []
+    },
+    {
+        "nombre": "Intensamente 2",
+        "formato": "3D",
+        "costo_entrada": 4100,
+        "afiche": "../images/intensamente2.jpeg",
+        "butacasOcupadas": []
+    },
+    {
+        "nombre": "Kung Fu Panda 4",
+        "formato": "3D",
+        "costo_entrada": 4100,
+        "afiche": "../images/kung_fu_panda_4.jpg",
+        "butacasOcupadas": []
+    },
+    {
+        "nombre": "Garfield: Fuera de casa",
+        "formato": "3D",
+        "costo_entrada": 4100,
+        "afiche": "../images/the_garfield.jpg",
+        "butacasOcupadas": []
+    }
+  ]
+  

@@ -1,0 +1,247 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    user-select: none;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: hsla(259.4117647058824, 100%, 63%, 1);
+    background-image: radial-gradient(circle at 15% 85%, hsla(318, 80%, 97%, 1) 19%, transparent 84%), radial-gradient(circle at 31% 1%, hsla(161.47058823529412, 99%, 84%, 1) 12%, transparent 85%), radial-gradient(circle at 88% 87%, hsla(163, 90%, 78%, 1) 3.6400864520532363%, transparent 75.20902830975928%), radial-gradient(circle at 30% 27%, hsla(314, 91%, 59%, 1) 14%, transparent 90%);
+    background-blend-mode: normal, normal, normal, normal;
+}
+#cartelera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cartelera .pelicula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 600px;
+    margin: 30px;
+    padding: 5px;
+    background-color: rgba(53, 9, 214, 0.151);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contenedor-cine {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: solid 5px black;
+}
+
+
+.pantalla {
+    width: 80%;
+    margin-bottom: 25%;
+    border: solid 5px #444;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cine {
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    gap: 10px;
+}
+
+
+.fila {
+    display: flex;
+}
+
+.grupo-butacas {
+    display: flex;
+    gap: 5px;
+}
+
+.butaca {
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.butaca:hover {
+    transform: scale(1.1);
+}
+
+.butaca.seleccionada {
+    background-color: #28e40f;
+}
+
+.butaca.ocupada {
+    background-color: #ec0909;
+    cursor: not-allowed;
+}
+
+.pasillo {
+    width: 50px;
+}
+
+.carrito {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrito h2 {
+    margin: 0 0 10px 0;
+}
+
+.carrito ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.carrito ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carrito button {
+    margin: 10px;
+}
+
+#contenedor-resumen {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contenedor-resumen h2 {
+    margin-bottom: 10px;
+}
+
+
+#resumen-compra {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#resumen-compra li {
+    margin-bottom: 5px;
+}
+
+.boton-seleccionar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+}
+
+.boton-cancelar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+}
+
+.boton-seleccionar:hover,
+.boton-cancelar:hover {
+    opacity: 0.8;
+}
+
+.afiche {
+    width: 250px;  
+    height: auto;
+    display: block;
+    margin: 10px 15px;
+}
+
+.datos-pelicula{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.datos-pelicula p{
+    margin: 5px 0;
+}
+
+.seleccionar-pelicula{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contenedor-descripcion{
+    display: flex;
+    align-items: center;
+}
+
+#volver-inicio{
+    background-color: rgb(76, 8, 233);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#volver-inicio:hover{
+    transform: scale(1.03);
+}
+.retorno{
+    width: 300px;
+    height: 40px;
+    margin-right: 50%;
+    margin-left: 40%;
+    margin-top: 40px;
+    border: none;
+    background-color: #444;
+}
+.retorno:hover{
+    transform: scale(1.02);
+}
+.retorno a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.carousel-movies{
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center;
+}
+.retorno-index{
+    text-decoration: none;
+}
