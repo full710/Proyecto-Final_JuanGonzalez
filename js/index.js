@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const irCartelera = document.createElement('button')
         irCartelera.textContent = 'Ir a la cartelera'
         irCartelera.classList.add('btn', 'btn-success', 'me-2')
-        irCartelera.addEventListener('click', () => window.location.href = './cartelera.html')
+        irCartelera.addEventListener('click', () => window.location.href = './pages/cartelera.html')
 
         const logoutButton = document.createElement('button')
         logoutButton.textContent = 'Cerrar sesión'
