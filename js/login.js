@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     if (usuario) {
         localStorage.setItem('usuarioLogueado', JSON.stringify(usuario))
         localStorage.setItem('mostrarToast', 'true')
-        window.location.href = './index.html'
+        window.location.href = "../index.html"
     } else {
         alert('Usuario o contraseña incorrectos.')
     }
@@ -23,7 +23,7 @@ if (usuarioLogueado) {
     logoutButton.textContent = 'Cerrar sesión'
     logoutButton.addEventListener('click', function() {
         localStorage.removeItem('usuarioLogueado')
-        window.location.href = './index.html'
+        window.location.href = "../index.html"
     });
     document.body.appendChild(logoutButton)
 }

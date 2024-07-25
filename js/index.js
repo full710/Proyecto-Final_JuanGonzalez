@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
         contenedorBotones.appendChild(irCartelera)
         contenedorBotones.appendChild(logoutButton)
     } else {
-        botonAcceder.addEventListener('click', () => window.location.href = './login.html')
-        botonRegistrar.addEventListener('click', () => window.location.href = './registro.html')
+        botonAcceder.addEventListener('click', () => window.location.href = './pages/login.html')
+        botonRegistrar.addEventListener('click', () => window.location.href = './pages/registro.html')
     }
 
     const mostrarToast = localStorage.getItem('mostrarToast')

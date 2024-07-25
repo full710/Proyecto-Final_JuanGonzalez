@@ -185,7 +185,7 @@ const seleccionarPeliculaYCarrito = () => {
                         localStorage.setItem('peliculas', JSON.stringify(peliculas))
                         nuevaVentana.document.close()
                         Swal.fire("Compra realizada con éxito", "", "success").then(() => {
-                            window.location.href = './index.html'
+                            window.location.href = '../index.html'
                         })
                     }})
                 })
